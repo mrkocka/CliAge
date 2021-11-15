@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/*Fejléc*/
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 6.25rem;
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: .3rem;
+}
+nav div{
+    text-align: center;
+   
+}
+nav .logo{
+    width: 23%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav .logo img{
+    width: 15.625rem;
+    height: 5.688rem;
+
+}
+
+nav .hanyeves{
+    width: 53%;
+    font-size: 1.5rem;
+    letter-spacing: 1.2rem;
+    font-weight: 700;
+}
+
+nav .link{
+    width: 23%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+}
